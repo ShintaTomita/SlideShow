@@ -1,0 +1,67 @@
+.product {
+  background-color: #222;
+  padding: 20px 80px;
+}
+.container {
+  width: 100%;
+  paddng: 20px;
+}
+.container h1 {
+  color: white;
+  font-size: 70px;
+  text-align: center;
+  margin-bottom: 0;
+  letter-spacing: 3.5px;
+}
+.title-text{
+  font-size: 28px;
+  color: white;
+  font-weight: bold;
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 50px;
+  letter-spacing: 2px;
+}
+.slideShow .slideShow li {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.slideShow img {
+  width: 75%;
+  height: 500px;
+  margin: 0;
+  display: inline-block;
+}
+.slideShow p {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+.thumb .thumb li{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+.thumb img{
+  width: 30%;
+  height: 100px;
+  margin: 0;
+}
+.slick-initialized .slick-slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-content: center; */
+    align-items: center;
+}
+.thumb .slick-current {
+  opacity: 0.3;
+}
+.slick-prev {
+  right: 600px;
+}
